@@ -1,0 +1,103 @@
+  <header>
+        <div class="headerContainer">
+            <div class="logoContainer">
+                <h1>WearTake</h1>
+            </div>
+            <nav class="navContainer">
+                <button>Todos</button>
+                <button>Acessórios</button>
+                <button>Calçados</button>
+                <button>Camiseta</button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="containerProdutos">
+            <div class="cardProduto">
+                <figure>
+                    <img src="./img/jaqueta.svg" alt="">
+                </figure>
+                <span class="cardCamiseta">
+                    <p>Camisetas</p>
+                </span>
+                <h2>Lightweight Jacket</h2>
+                <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
+                <p>R$ 100.00</p>
+                <button>Adicionar ao carrinho</button>
+            </div>
+            <div class="cardProduto">
+                <figure>
+                    <img src="./img/gorro.svg" alt="">
+                </figure>
+                <span class="cardAcessorio">
+                    <p>Acessórios</p>
+                </span>
+                <h2>Black Hat</h2>
+                <p>O gorro Next.js chegou! Esta beldade bordada tem um ajuste confortável que garante que...</p>
+                <p>R$ 100.00</p>
+                <button>Adicionar ao carrinho</button>
+            </div>
+            <div class="cardProduto">
+                <figure>
+                    <img src="./img/mascara.svg" alt="">
+                </figure>
+                <span class="cardAcessorio">
+                    <p>Acessórios</p>
+                </span>
+                <h2>Mask</h2>
+                <p>Esta máscara facial durável é feita de duas camadas de tecido tratado e possui presilhas...</p>
+                <p>R$ 100.00</p>
+                <button>Adicionar ao carrinho</button>
+            </div>
+            <div class="cardProduto">
+                <figure>
+                    <img src="./img/camiseta_branca.svg" alt="">
+                </figure>
+                <span class="cardCamiseta">
+                    <p>Camisetas</p>
+                </span>
+                <h2>T-Shirt</h2>
+                <p>Esta t-shirt é imprescindível no seu guarda-roupa, combinando o caimento intemporal de...</p>
+                <p>R$ 100.00</p>
+                <button>Adicionar ao carrinho</button>
+            </div>
+            <div class="cardProduto">
+                <figure>
+                    <img src="./img/camiseta_preta.svg" alt="">
+                </figure>
+                <span class="cardCamiseta">
+                    <p>Camisetas</p>
+                </span>
+                <h2>Short-Sleeve T-Shirt</h2>
+                <p>Agora você encontrou a camiseta básica do seu guarda-roupa. É feito de um mais fino...</p>
+                <p>R$ 100.00</p>
+                <button>Adicionar ao carrinho</button>
+            </div>
+            <div class="cardProduto">
+                <figure>
+                    <img src="./img/moletom.svg" alt="">
+                </figure>
+                <span class="cardCamiseta">
+                    <p>Camisetas</p>
+                </span>
+                <h2>Champion Packable Jacket</h2>
+                <p>Proteja-se dos elementos com esta jaqueta embalável Champion. Esta jaqueta de poliést...</p>
+                <p>R$ 100.00</p>
+                <button>Adicionar ao carrinho</button>
+            </div>
+        </section>
+        <section class="containerCarrinho">
+            <section class="containerPesquisa">
+                <input type="text" placeholder="Digite aqui sua pesquisa">
+                <button>Pesquisar</button>
+            </section>
+            <section class="carrinhoDeCompras">
+                <h2>Carrinho de compras</h2>
+                <div class="listaProdutos">
+                    <p>Carrinho vázio<p>
+                    <p>Adicione itens</p>
+                </div>
+            </section>
+
+        </section>
+    </main>
